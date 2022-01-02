@@ -78,13 +78,13 @@ under the License.
 		<module>flink-contrib</module>
 		<module>flink-dist</module>
 		<module>flink-metrics</module>
-		<module>flink-yarn</module>
-		<module>flink-yarn-tests</module>
+		<!--<module>flink-yarn</module>
+		<module>flink-yarn-tests</module>-->
 		<module>flink-fs-tests</module>
 		<module>flink-docs</module>
 		<module>flink-python</module>
 		<module>flink-walkthroughs</module>
-		<module>flink-kubernetes</module>
+		<!--<module>flink-kubernetes</module>-->
 		<module>flink-external-resources</module>
 		<module>tools/ci/java-ci-tools</module>
 	</modules>

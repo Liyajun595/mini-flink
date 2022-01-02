@@ -7,3 +7,4 @@
 2021.01.01
 
 每次删除记录都将统计在此文件中
+2021.01.02 删除 flink-k8s、flink-yarn、flink-yarn-test。 Java 1367046, Scala 185875
