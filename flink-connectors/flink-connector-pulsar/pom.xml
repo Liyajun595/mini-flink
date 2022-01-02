@@ -231,7 +231,7 @@ under the License.
 					<outputDirectory>
 						${project.build.directory}/generated-test-sources/protobuf/java
 					</outputDirectory>
-					<protocArtifact>com.google.protobuf:protoc:3.5.1:exe:${os.detected.classifier}
+					<protocArtifact>com.google.protobuf:protoc:3.5.1:exe:osx-x86_64
 					</protocArtifact>
 				</configuration>
 				<executions>
