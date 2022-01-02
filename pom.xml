@@ -812,9 +812,9 @@ under the License.
 			</activation>
 			<!-- Scala Shell doesn't currently work with Scala 2.12 so only include
 			when building for Scala 2.11. -->
-			<modules>
+			<!--<modules>
 				<module>flink-scala-shell</module>
-			</modules>
+			</modules>-->
 			<build>
 				<plugins>
 					<!-- make sure we don't have any _2.10 or _2.12 dependencies when building
