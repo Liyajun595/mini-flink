@@ -10,3 +10,4 @@
 2021.01.02 删除 flink-k8s、flink-yarn、flink-yarn-test。 Java 1367046, Scala 185875
 2021.01.02 删除 flink-quickstart。 Java 1367030, Scala 185859
 2021.01.02 删除 flink-doc。 Java 1365036, Scala 185859
+2021.01.02 删除 flink-end-to-end-tests。 Java 1350078, Scala 185815
