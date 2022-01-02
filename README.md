@@ -17,3 +17,4 @@
 2021.01.02 删除 flink-external-resources。 Java 1335150, Scala 185762
 2021.01.02 删除 flink-python。 Java 1311708, Scala 185287
 2021.01.02 删除 flink-contrib。 Java 1311252, Scala 185287
+2021.01.02 删除 flink-container。 Java 1310803, Scala 185287
