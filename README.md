@@ -7,7 +7,9 @@
 2021.01.01
 
 每次删除记录都将统计在此文件中
-2021.01.02 删除 flink-k8s、flink-yarn、flink-yarn-test。 Java 1367046, Scala 185875
+2021.01.02 删除 flink-yarn、flink-yarn-test。 Java 1367046, Scala 185875
 2021.01.02 删除 flink-quickstart。 Java 1367030, Scala 185859
 2021.01.02 删除 flink-doc。 Java 1365036, Scala 185859
 2021.01.02 删除 flink-end-to-end-tests。 Java 1350078, Scala 185815
+2021.01.02 删除 flink-k8s。 Java 1335966, Scala 185815
+2021.01.02 删除 flink-dist。 Java 1335806, Scala 185807
