@@ -65,7 +65,7 @@ under the License.
 		<module>flink-formats</module>
 		<module>flink-examples</module>
 		<module>flink-clients</module>
-		<module>flink-container</module>
+		<!--<module>flink-container</module>-->
 		<module>flink-queryable-state</module>
 		<module>flink-tests</module>
 		<!--<module>flink-end-to-end-tests</module>-->
@@ -75,14 +75,14 @@ under the License.
 		<module>flink-libraries</module>
 		<module>flink-table</module>
 		<!--<module>flink-quickstart</module>-->
-		<module>flink-contrib</module>
+		<!--<module>flink-contrib</module>-->
 		<!--<module>flink-dist</module>-->
 		<module>flink-metrics</module>
 		<!--<module>flink-yarn</module>
 		<module>flink-yarn-tests</module>-->
-		<module>flink-fs-tests</module>
+		<!--<module>flink-fs-tests</module>-->
 		<!--<module>flink-docs</module>-->
-		<module>flink-python</module>
+		<!--<module>flink-python</module>-->
 		<!--<module>flink-walkthroughs</module>-->
 		<!--<module>flink-kubernetes</module>-->
 		<!--<module>flink-external-resources</module>-->
@@ -812,9 +812,9 @@ under the License.
 			</activation>
 			<!-- Scala Shell doesn't currently work with Scala 2.12 so only include
 			when building for Scala 2.11. -->
-			<modules>
+			<!--<modules>
 				<module>flink-scala-shell</module>
-			</modules>
+			</modules>-->
 			<build>
 				<plugins>
 					<!-- make sure we don't have any _2.10 or _2.12 dependencies when building
