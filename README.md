@@ -12,3 +12,4 @@
 2021.01.02 删除 flink-doc。 Java 1365036, Scala 185859
 2021.01.02 删除 flink-end-to-end-tests。 Java 1350078, Scala 185815
 2021.01.02 删除 flink-k8s。 Java 1335966, Scala 185815
+2021.01.02 删除 flink-dist。 Java 1335806, Scala 185807
