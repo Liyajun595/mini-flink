@@ -24,3 +24,4 @@
 2021.01.02 删除 flink-tests。 Java 1249361, Scala 170217
 2021.01.02 删除 flink-table。 Java 1001526, Scala 15937
 2021.01.02 删除 flink-scala、flink-streaming-scala。 Java 1000387, Scala 3205
+2021.01.02 删除 flink-dist、flink-dist-scala。 Java 996865, Scala 3205
