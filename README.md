@@ -22,3 +22,4 @@
 2021.01.02 删除 other examples and tests。 Java 1301993, Scala 183805
 2021.01.02 删除 flink-scala-shell。 Java 1301683, Scala 183135
 2021.01.02 删除 flink-tests。 Java 1249361, Scala 170217
+2021.01.02 删除 flink-table。 Java 1001526, Scala 15937
