@@ -44,3 +44,5 @@
 2021.01.03 删除 flink-dist、flink-dist-scala。 Java 996865, Scala 3205
 
 2021.01.03 删除 flink-test-utils-parent & other tests。 Java 501054, Scala 1695
+
+2021.01.03 删除一些 connector。 Java 424444, Scala 1257

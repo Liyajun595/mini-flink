@@ -36,7 +36,7 @@ under the License.
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>flink-hadoop-compatibility</module>
+		<!--<module>flink-hadoop-compatibility</module>
 		<module>flink-hcatalog</module>
 		<module>flink-connector-elasticsearch-base</module>
 		<module>flink-connector-elasticsearch5</module>
@@ -53,11 +53,11 @@ under the License.
 		<module>flink-connector-cassandra</module>
 		<module>flink-connector-kafka</module>
 		<module>flink-connector-gcp-pubsub</module>
-		<module>flink-connector-kinesis</module>
+		<module>flink-connector-kinesis</module>-->
 		<module>flink-connector-base</module>
 		<module>flink-file-sink-common</module>
 		<module>flink-connector-files</module>
-		<module>flink-connector-pulsar</module>
+		<!--<module>flink-connector-pulsar</module>-->
 	</modules>
 
 	<!-- override these root dependencies as 'provided', so they don't end up
@@ -94,7 +94,7 @@ under the License.
 				</property>
 			</activation>
 			<modules>
-				<module>flink-sql-connector-elasticsearch6</module>
+				<!--<module>flink-sql-connector-elasticsearch6</module>
 				<module>flink-sql-connector-elasticsearch7</module>
 				<module>flink-sql-connector-hbase-1.4</module>
 				<module>flink-sql-connector-hbase-2.2</module>
@@ -103,7 +103,7 @@ under the License.
 				<module>flink-sql-connector-hive-2.3.6</module>
 				<module>flink-sql-connector-hive-3.1.2</module>
 				<module>flink-sql-connector-kafka</module>
-				<module>flink-sql-connector-kinesis</module>
+				<module>flink-sql-connector-kinesis</module>-->
 			</modules>
 		</profile>
 	</profiles>
