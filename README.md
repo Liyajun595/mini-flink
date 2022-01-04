@@ -45,4 +45,7 @@
 
 2021.01.03 删除 flink-test-utils-parent & other tests。 Java 501054, Scala 1695
 
-2021.01.03 删除一些 connector。 Java 424444, Scala 1257
+2021.01.04 删除一些 connector。 Java 424444, Scala 1257
+
+2021.01.03 删除 flink-formats。 Java 404784, Scala 1257
+
