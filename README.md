@@ -52,3 +52,5 @@
 2021.01.04 删除 flink-filesystems。 Java 396603, Scala 1257。org.apache.flink.runtime.security 中有依赖文件系统
 
 2021.01.04 删除所有 flink-connectors。 Java 388536, Scala 1257。org.apache.flink.streaming.api.functions.sink.filesystem.Bucket 中有依赖 flink-file-sink-common
+
+2021.01.04 删除 flink-state-backends。 Java 375443, Scala 1257
