@@ -49,5 +49,5 @@
 
 2021.01.04 删除 flink-formats。 Java 404784, Scala 1257
 
-2021.01.04 删除 flink-filesystems。 Java 404784, Scala 1257。org.apache.flink.runtime.security 中有依赖文件系统
+2021.01.04 删除 flink-filesystems。 Java 396603, Scala 1257。org.apache.flink.runtime.security 中有依赖文件系统
 
