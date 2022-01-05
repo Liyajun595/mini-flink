@@ -53,4 +53,4 @@
 
 2021.01.04 删除所有 flink-connectors。 Java 388536, Scala 1257。
 
-2021.01.04 删除 flink-state-backends。 Java 375443, Scala 1257
+2021.01.05 删除 flink-optimizer。 Java 360315, Scala 1257

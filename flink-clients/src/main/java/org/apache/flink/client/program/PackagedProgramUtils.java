@@ -23,7 +23,6 @@ import org.apache.flink.api.dag.Pipeline;
 import org.apache.flink.client.FlinkPipelineTranslationUtil;
 import org.apache.flink.configuration.ConfigConstants;
 import org.apache.flink.configuration.Configuration;
-import org.apache.flink.optimizer.CompilerException;
 import org.apache.flink.runtime.jobgraph.JobGraph;
 
 import org.apache.commons.collections.CollectionUtils;
@@ -123,7 +122,7 @@ public enum PackagedProgramUtils {
             Configuration configuration,
             int parallelism,
             boolean suppressOutput)
-            throws CompilerException, ProgramInvocationException {
+            throws ProgramInvocationException {
         final ClassLoader contextClassLoader = Thread.currentThread().getContextClassLoader();
 
         Thread.currentThread().setContextClassLoader(program.getUserCodeClassLoader());

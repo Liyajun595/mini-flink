@@ -19,6 +19,7 @@
 
 package org.apache.flink.client;
 
+import org.apache.flink.annotation.Modify;
 import org.apache.flink.api.dag.Pipeline;
 import org.apache.flink.configuration.Configuration;
 import org.apache.flink.runtime.jobgraph.JobGraph;
@@ -64,13 +65,9 @@ public final class FlinkPipelineTranslationUtil {
         return pipelineTranslator.translateToJSONExecutionPlan(pipeline);
     }
 
+    @Modify
     private static FlinkPipelineTranslator getPipelineTranslator(Pipeline pipeline) {
-        PlanTranslator planTranslator = new PlanTranslator();
-
-        if (planTranslator.canTranslate(pipeline)) {
-            return planTranslator;
-        }
-
+        // 删除批处理部分
         StreamGraphTranslator streamGraphTranslator = new StreamGraphTranslator();
 
         if (streamGraphTranslator.canTranslate(pipeline)) {
