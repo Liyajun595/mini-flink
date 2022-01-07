@@ -54,3 +54,6 @@
 2021.01.04 删除所有 flink-connectors。 Java 388536, Scala 1257。
 
 2021.01.05 删除 flink-optimizer。 Java 360315, Scala 1257
+
+2021.01.05 删除 flink-queryable-state。 Java 357454, Scala 1257
+
